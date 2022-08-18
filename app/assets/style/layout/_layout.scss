@@ -1,0 +1,47 @@
+/*layout共同區域*/
+.navigation{
+    max-width: 296px;
+    height: 100%;
+    background-color: #f8f9fa;
+    padding: 2rem 0;  /*1rem = 16px*/
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    .navigation-list{
+        width: 100%;
+        li{
+            font-size: 16px;
+            font-weight: 700;
+            color: #212529;
+            margin-bottom: 16px;
+            a{
+                color: #212529;
+                display: block;
+                padding: 4px 24px;
+                span{
+                    vertical-align: middle;  /*垂直居中 圖片與文字對齊*/
+                }
+                .material-symbols-outlined{
+                    font-variation-settings: 'FILL' 1;
+                }
+            }
+        }
+    }
+    .user-info{
+        display: flex;
+        align-items: center;
+        img{
+            width: 40px;
+            height: 40px;
+            border-radius: 24px;
+        }
+        h3{
+            font-size: 16px;
+            font-weight: 700;
+        }
+        p{
+            font-size: 14px;
+            color: #6C757D;
+        }
+    }
+}
